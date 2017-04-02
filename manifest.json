@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "Memeify",
+  "description": "Replaces images of topical political figures with swanky programming memes.",
+  "version": "6.9",
+  "options_page": "index.html",
+
+  "permissions": [
+    "https://www.google.ca/search?q=programming+memes&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiXlZPZkIXTAhUk64MKHQ6ZCAkQ_AUICCgB&biw=1242&bih=636&dpr=1.1",
+    "storage",
+    "contextMenus"
+  ],
+  "icons": { "48": "troll48.png",
+          "128": "troll128.png" },
+  "browser_action": {
+          "default_icon": { 
+	           "48": "troll48.png",
+			   "128": "troll128.png" 
+          },
+          "default_title": "#AprilFools",      
+          "default_popup": "index.html"       
+        },        
+  
+  "background": {
+    "scripts": ["menu.js"]
+  },
+          
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["aprilfools.js", "content.js"]
+    }
+  ]
+}
