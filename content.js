@@ -28,9 +28,9 @@ replaceWord("Republicans", "Snake People");
 replaceWord("economics", "dank memes");
 replaceWord("Mexico", "Wallman's home country");
 replaceWord("Mike", "British");
-replaceWord("ISIS", "International Space Station");
+replaceWord("ISIS", "International Space Igloo Stationiers");
 replaceWord("violent", "stinky");
-replaceWord("violence", "peace");
+replaceWord("violence", "love and peace");
 replaceWord("lawyer", "dragon");
 replaceWord("Russia", "Disneyland");
-replaceWord("Americans", "Pokemon")
+replaceWord("Americans", "Pokemon");
