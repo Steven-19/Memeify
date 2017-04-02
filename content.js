@@ -21,7 +21,7 @@ function replaceWord(word1, word2) {
     }
 }
 
-replaceWord("Donald", "Crazy");
+replaceWord("Donald", "Mr. Crazy");
 replaceWord("Trump", "Wallman");
 replaceWord("businesses", "money-mayhem-machines");
 replaceWord("Republicans", "Snake People");
@@ -32,3 +32,5 @@ replaceWord("ISIS", "International Space Station");
 replaceWord("violent", "stinky");
 replaceWord("violence", "peace");
 replaceWord("lawyer", "dragon");
+replaceWord("Russia", "Disneyland");
+replaceWord("Americans", "Pokemon")
